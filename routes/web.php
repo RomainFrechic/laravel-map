@@ -15,6 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', function () {
-    return view('vue');
-});
+Route::get('vue.blade.php', 'SimploniensController@getVue');
