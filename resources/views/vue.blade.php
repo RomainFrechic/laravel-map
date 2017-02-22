@@ -1,10 +1,12 @@
 @extends('layouts.app')
 @section('content')
 
-
-    <div class="mapContainer" id="partiemap">
-        <div id="map" class="map"></div>
-    </div>
+<form class="ui form" >
+    <div class="required field">
+      <label>Rentrer un Email</label>
+      <input type="text" placeholder="Email">
+</div>
+</form>
 
    
         
